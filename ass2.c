@@ -5,7 +5,7 @@ int main()
  float f1,c;
  printf("enter the cel degree");
  scanf("%f",&c);
- f1=(9c-160)/5;
+ f1=(c*9/5)+32;
  printf("fahrenheit=%f",f1);
  return 0;
 }
