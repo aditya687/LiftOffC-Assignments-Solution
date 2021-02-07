@@ -9,7 +9,7 @@ int main()
   scanf("%d",&b);
   add=a+b;
   sub=a-b;
-  mul=a-b;
+  mul=a*b;
   div=a/b;
   printf("add=%d",add);
   printf("sub=%d",sub);
