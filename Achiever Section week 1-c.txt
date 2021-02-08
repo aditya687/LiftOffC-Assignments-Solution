@@ -1,0 +1,67 @@
+1.
+#include<stdio.h>
+int main()
+{
+int i = 5, j = 6, k = 7;
+if(i > j == k)
+printf("%d %d %d", i++, ++j, --k);
+else
+printf("%d %d %d", i, j, k);
+return 0;
+}
+
+output:5 6 7
+
+2.
+#include<stdio.h>
+int main()
+{
+int i = 2;
+if(i == (1, 2))
+printf("Hai");
+else
+printf("No Hai");
+return 0;
+}
+
+output:Hai
+
+3.
+#include<stdio.h>
+int main()
+{
+int i = 5;
+if(i = i - 5 > 4)
+printf("inside if block");
+else
+printf("inside else block");
+return 0;
+}
+
+output:inside else block
+
+4.
+#include<stdio.h>
+int main()
+{
+if(sizeof(0))
+printf("Hai");
+else
+printf("Bye");
+return 0;
+}
+
+output:Hai
+
+5.#include<stdio.h>
+int main()
+{
+if(sizeof('\0'))
+printf("inside if block");
+else
+printf("inside else block");
+return 0;
+}
+
+output:inside if block
+
